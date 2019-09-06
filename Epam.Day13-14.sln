@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueTask.Tests", "QueueTas
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BinarySerchTreeTask", "BinarySerchTreeTask", "{04C5AF2E-8208-48C9-8ABA-A01505EC3907}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySerchTree", "BinarySerchTree\BinarySerchTree.csproj", "{9FED2F1C-263B-49FC-9126-C6450FE03F86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySerchTree", "BinarySerchTree\BinarySerchTree.csproj", "{9FED2F1C-263B-49FC-9126-C6450FE03F86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySerchTree.Tests", "BinarySerchTree.Tests\BinarySerchTree.Tests.csproj", "{44472F96-13FA-4628-9C94-5E084369A34F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{9FED2F1C-263B-49FC-9126-C6450FE03F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FED2F1C-263B-49FC-9126-C6450FE03F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FED2F1C-263B-49FC-9126-C6450FE03F86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44472F96-13FA-4628-9C94-5E084369A34F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44472F96-13FA-4628-9C94-5E084369A34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44472F96-13FA-4628-9C94-5E084369A34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44472F96-13FA-4628-9C94-5E084369A34F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{FEB62854-25EB-4CAF-8025-7BD7EDD4F2F9} = {6B77026E-5905-44E2-ABC8-1B50F6F91F83}
 		{724C4275-3AB6-4F9E-944C-0BC07AEED997} = {6B77026E-5905-44E2-ABC8-1B50F6F91F83}
 		{9FED2F1C-263B-49FC-9126-C6450FE03F86} = {04C5AF2E-8208-48C9-8ABA-A01505EC3907}
+		{44472F96-13FA-4628-9C94-5E084369A34F} = {04C5AF2E-8208-48C9-8ABA-A01505EC3907}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34627DD1-88D9-41E6-A943-CC2357E8CA84}

@@ -7,8 +7,14 @@ namespace BinarySerchTree
 {
     public class BinaryTree<T> : IEnumerable<T> where T : IComparable<T>
     {
+        /// <summary>
+        /// Tree root.
+        /// </summary>
         private BinaryTreeNode<T> _head;
 
+        /// <summary>
+        /// The number of structural elements.
+        /// </summary>
         private int _count;
 
         /// <summary>
